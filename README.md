@@ -76,4 +76,4 @@ Open `firmware/` with PlatformIO. Review `firmware/include/config.h` and the wir
 
 This is an initial research scaffold. It does not include a trained model, validated apnea detector, clinical-grade EEG acquisition, fNIRS acquisition, or a validated closed-loop intervention. Performance targets must be treated as hypotheses until tested on an appropriately governed, independent dataset.
 
-See [Safety](docs/SAFETY.md), [Hardware notes](docs/HARDWARE_NOTES.md), and [Data format](docs/DATA_FORMAT.md).
+See [Competition guide](docs/COMPETITION_GUIDE.md), [Project status](docs/PROJECT_STATUS.md), [Validation protocol](docs/VALIDATION_PROTOCOL.md), [Safety](docs/SAFETY.md), [Hardware notes](docs/HARDWARE_NOTES.md), and [Data format](docs/DATA_FORMAT.md).
