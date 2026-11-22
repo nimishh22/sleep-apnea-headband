@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sleepband-research"
+version = "0.1.0"
+description = "Experimental signal inspection and evaluation utilities for a wearable sleep research prototype"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scipy>=1.10", "scikit-learn>=1.3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "ruff>=0.4"]
+
+[project.scripts]
+sleepband = "sleepband.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sleepband*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
